@@ -76,8 +76,11 @@ python manage.py runserver 0.0.0.0:8000
 ![首页](res/imgs/首页.png)
 <p align="center">首页</p>
 
-<center class="half" style="display: flex; align-items: center; justify-content: space-around;">
+<!-- <center class="half" style="display: flex; align-items: center; justify-content: space-around;">
     <img src="res/imgs/活动详情.png" width="50%"/><img src="res/imgs/添加活动.png" width="50%"/>
-</center>
-    <p align="center">活动详情&添加活动</p>
+</center> -->
+
+![活动详情](res/imgs/活动详情.png)![添加活动](res/imgs/添加活动.png)
+
+<p align="center">活动详情&添加活动</p>
 
