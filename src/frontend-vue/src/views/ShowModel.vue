@@ -6,7 +6,6 @@ import { ref } from 'vue'
 
 const params  = new URLSearchParams(location.search);
 const model   = ref(params.get('model'));
-const patientName = ref(params.get('patientName'));
 
 </script>
 
@@ -14,9 +13,8 @@ const patientName = ref(params.get('patientName'));
 <div></div>
 
 <div id='main'>
-    <div class="title">超酷口腔管理平台模型查看器</div>
+    <div class="title">3D模型查看器</div>
     <div class="model">
-        <div class="model-information">患者：{{ patientName }}</div>
         <model-stl :src="model"></model-stl>
     </div>
     
