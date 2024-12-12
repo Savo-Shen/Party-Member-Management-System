@@ -255,6 +255,7 @@ input {
 .activity-list {
     height: 90%;
     width: 100%;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     overflow: auto;

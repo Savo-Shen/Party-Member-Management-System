@@ -312,6 +312,7 @@ is_login()
     overflow-y: auto;
     flex-flow: wrap;
     min-height: 100px;
+    padding-bottom: 20px;
     width: 200px;
 }
 .student-item {

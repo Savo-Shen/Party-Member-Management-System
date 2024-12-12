@@ -298,6 +298,10 @@ function refresh() {
     background-color: rgb(110, 185, 208);
     transform: scale(1.2);
 }
+#delete-button:hover {
+    background-color: red;
+    transform: scale(1.2);
+}
 .image-list {
     display: flex;
     flex-direction: row;

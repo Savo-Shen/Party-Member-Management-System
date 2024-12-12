@@ -119,7 +119,7 @@ async function register() {
 	}
 
 	registerMessage.value = value['message']
-
+	alert(value['message'])
 }
 
 function forget() {
