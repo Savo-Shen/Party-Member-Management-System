@@ -201,6 +201,7 @@ is_login()
     -webkit-backdrop-filter: blur(1px);
     border-radius: 10px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 .activity-menu {
     width: 100%;
@@ -245,8 +246,6 @@ is_login()
 .activity-list {
     width: 100%;
     height: 100%;
-
-    
 }
 .user-information {
     display: flex;
