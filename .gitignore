@@ -1,3 +1,5 @@
 **/.DS_Store
 vue-element-admin
 src/frontend
+**/db.sqlite3
+src/backend/media/*
